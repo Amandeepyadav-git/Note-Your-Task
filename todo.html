@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task TO-Do</title>
+    <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+    <div class="navbar">
+    <buttton id="todo-task">Todo</buttton>
+    <a href="Note.html" class="nav-btn">NewNote</a>
+    <button id="delete" class="nav-btn" onclick="rem();del()">❌</button>    
+    </div>
+    <div class="container" id="todo-contain">
+      <div class="box">
+        <input class="input"></input>
+         <a href="" class="set-btn" onclick="add()">✅</a>
+         <ol id="new-task" class="new-task"></ol>
+    </div>
+    </div>
+    <script src="Task.js"></script>
+</body>
+</html>
